@@ -1,0 +1,57 @@
+.flex {
+	display:flex;
+}
+.col-3{
+	width:25%;
+}
+.image1,.image2,.image3,.image4 {
+	width:100%;
+	
+}
+.t {
+	
+	width:100%;
+}
+.card {
+	margin:10px;
+
+	
+}
+.container {
+	width:95%;
+	margin:auto;
+}
+.icon {
+	display:flex;
+	margin-left:5px;
+	
+}
+
+
+.content{
+      margin-left:2px;
+	  
+}
+
+.card {
+	position:relative;
+	overflow:hidden;
+}
+.icon {
+	
+	color:#fff;
+	opacity:0;
+	position:absolute;
+	
+	
+	transition:all 0.5s ease-in-out;
+	left:0;
+	right:0;
+}
+.card:hover .icon{
+	opacity:1;
+	position:absolute;
+	
+     bottom:30%;
+   
+}
